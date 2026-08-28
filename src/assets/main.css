@@ -1,0 +1,14 @@
+@import './base.css';
+
+/* create-vue 기본 템플릿의 2단 그리드/초록 링크 스타일은 걷어냈다.
+   레이아웃은 App.vue 의 .app-shell 이 잡는다.
+   base.css 의 다크모드 변수 때문에 OS 가 다크모드면 글자가 하얗게 되는데
+   카드 배경이 전부 흰색이라 그냥 라이트 고정으로 덮어썼다 */
+#app {
+  min-height: 100vh;
+}
+
+body {
+  background-color: #f4f7fb;
+  color: #2c3e50;
+}
